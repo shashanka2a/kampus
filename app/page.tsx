@@ -192,7 +192,7 @@ export default function Page() {
         />
 
         <div className="max-w-7xl w-full mx-auto px-4 grid md:grid-cols-2 gap-12 relative z-10">
-          <div className="flex flex-col justify-center items-start space-y-6 order-2 md:order-1 relative">
+          <div className="flex flex-col justify-center items-start space-y-6 order-1 md:order-1 relative">
             <div className="absolute -top-8 right-10 hidden md:block animate-float-slow z-20">
               <span className="font-handwriting text-xl text-gray-900 bg-yellow-200 px-3 py-1 shadow-sm rotate-6 block border border-black/10 text-center">
                 Simplified!
@@ -253,7 +253,7 @@ export default function Page() {
             </button>
           </div>
 
-          <div className="relative h-[400px] md:h-[500px] w-full order-1 md:order-2 perspective-1000 flex items-center justify-center">
+          <div className="relative h-[400px] md:h-[500px] w-full order-2 md:order-2 perspective-1000 flex items-center justify-center">
             <div className="absolute top-10 left-4 md:left-10 bg-[#F5F5F4] p-4 shadow-xl transform -rotate-6 hover:rotate-0 transition-all duration-300 w-40 z-10 border border-gray-200 group">
               <div className="absolute z-30 drop-shadow-md -top-2 left-1/2 -translate-x-1/2 group-hover:animate-wiggle">
                 <div className="w-4 h-4 rounded-full border-2 border-black/20 relative shadow-inner bg-red-500">
